@@ -1,0 +1,42 @@
+cities = ("Pune", "Mumbai", "Delhi", "Jaipur", "Goa")
+
+
+print(cities[:1])
+
+print(cities[4:5])
+print(cities[2:3])
+print(cities[3:4])
+
+
+mark = [90,85,78,92,88]
+
+print(mark)
+mark[0] = 95
+print(mark)
+
+fruit = ["apple","banana","cherry"]
+fruit.append("orange")
+fruit.append("Grapes")
+print(fruit)
+
+# list it can be chage value append value  it remove value 
+A = [10, 20, 30]
+print(type(A)) 
+print(A)
+
+# tuple constant
+b =(10, 20, 30) 
+print(type(b))
+# b.append(40)
+# b[0] = 95
+print(b)
+
+# set dublicte not allow
+c={10, 20,20, 30} 
+print(type(c))
+print(c)
+
+# dict key vale pair
+d ={"name": "Rahul", "age": 25}
+print(type(d))
+print(d)
